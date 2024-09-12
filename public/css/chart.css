@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+.container.centered-container {
+  max-width: 900px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-top: 3rem;
+  padding: 1rem;
+
+  max-height: calc(100vh - 100px);
+
+  overflow-y: scroll;
+}
+
+
+.container.centered-container input{
+    width:100%;
+    height:20px;
+    border-radius:10px;
+    padding:10px;
+    outline:none;
+    border:1px solid #6a6a6a;
+    margin-top:2rem
+}
+.container.centered-container  button{
+    border:none;
+    background:green;
+    color:#fff;
+    padding:0.5rem 1rem;
+    margin-top:2rem;
+    border-radius:30px;
+}
+.container.centered-container input:focus{
+    border:1px solid #ff004f;
+}
+.container.centered-container #chart-form{
+    width:100%;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content:center;
+}
+.container.centered-container .message{
+    display:flex;
+    padding:1rem 0.5rem;
+    background:blue;
+    margin-bottom:1rem;
+    color:#fff;
+    justify-content:space-between;
+    border-top-left-radius:10px;
+}
